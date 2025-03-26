@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Calendar</title>
+    <link rel="stylesheet" href="style_event.css" />
+  </head>
+  <header>
+	<a href="home.html" class="logo">QUICKTIX</a>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li>
+				<a href="#">The Race &#x25BE</a>
+				<ul class="dropdown">
+					<li><a href="race_fitness.html">National Fitness</a></li>
+					<li><a href="race_cycle.html">Marathon Cycling</a></li>
+					<li><a href="race_run.html">Fun Run</a></li>
+				</ul>
+			</li>
+			<li><a href="event.html">The Event</a></li>
+			<li><a href="infopage.html">Info</a></li>
+			<li><a href="#"><img src="Image/cart.png" class="cart-icon"></a></li>
+		</ul>
+  </header>
+<body>
+	<div class="team-container">
+      <h2>Coming Soon Event</h2>
+      <div class="images-container">
+        <img class="left" src="Image/person1.jpg" alt="" />
+        <img class="right" src="Image/person3.jpg" alt="" />
+        <img class="center" src="Image/person2.jpg" alt="" />
+		
+      </div>
+    </div>
+	
+    <div class="event-container">
+
+      <h3 class="year">2025</h3>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">10</div>
+            <div class="month">Jan</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Charity Run</h3>
+
+          <div class="event-description">
+          "The 'Hope for Tomorrow' Charity Run aims to raise funds for pediatric cancer research, 
+		  offering hope and support to children and families in need."
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png" alt="" /> 10:00 am
+          </div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">11</div>
+            <div class="month">Mar</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Marathon Bycling</h3>
+
+          <div class="event-description">
+          "Purpose: To unite runners and cyclists in promoting fitness, community, 
+		  and active living through a combined endurance challenge in Kuala Lumpur
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png" alt="" />9:00 am
+          </div>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="event-left">
+          <div class="event-date">
+            <div class="date">5</div>
+            <div class="month">Aug</div>
+          </div>
+        </div>
+
+        <div class="event-right">
+          <h3 class="event-title">Rowing</h3>
+
+          <div class="event-description">
+           "Purpose: To promote rowing as a sport, encourage physical fitness, teamwork, and competitive spirit among participants, 
+		   and showcase cyberjya as a hub for water sports and active living."
+          </div>
+
+          <div class="event-timing">
+            <img src="images/time.png" alt="" /> 8:00 am
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<!-- footer section -->
+	<footer>
+		<div class="footer-content">
+		<h3>MARATHON TIX</h3>
+		<p>...</p>
+		<div class="footer-bottom">
+			<p>Copyright &copy; 2024 doeaaa.designed by<span>nethun</span></p>
+		</div>
+	
+	</footer>
+	
+	<script type="text/javascript">
+		window.addEventListener("scroll",function(){
+		var header = document.querySelector("header");
+		header.classList.toggle("sticky", window.scrollY > 0)
+		})
+	</script>
+	
+</body>
+</html>
